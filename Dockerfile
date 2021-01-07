@@ -1,6 +1,6 @@
 FROM docker.pkg.github.com/intellivoid/harukaaya/image:dockerstation
 
-RUN git clone https://gitlab.com/HarukaNetwork/OSS/HarukaAya.git -b staging /data/HarukaAya
+RUN git clone https://github.com/Intellivoid/HarukaAya.git -b staging /data/HarukaAya
 
 COPY ./config.yml /data/HarukaAya
 
